@@ -19,11 +19,9 @@ int main()
 	struct letter letters[N];
 	int flag = 0;
 
-
 	printf("Enter set of letters: ");
 	scanf("%s", str);
 	printf("\n");
-
 
 	for (int i = 0; str[i] != '\0'; i++) {
 		flag = 0;
